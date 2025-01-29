@@ -6,3 +6,4 @@ image:
 service:
   type: NodePort
   port: 9080
+SPRING_PROFILES_ACTIVE: local
