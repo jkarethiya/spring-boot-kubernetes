@@ -1,0 +1,8 @@
+replicaCount: 1
+image:
+  repository: "jkarethiya/spring-boot-kubernetes"
+  tag: "latest"
+  pullPolicy: IfNotPresent
+service:
+  type: NodePort
+  port: 9080
